@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Clean sheet: how to release data or statistics in a spreadsheet</title>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:400|Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+	<style>
+		body { font-family: Ubuntu, sans-serif; max-width: 800px; font-size: 18px; margin: auto; padding: 0 8px; }
+		h1 { font-weight: normal; }
+		a:link, a:visited { color: blue; text-decoration: none; }
+		ul, ol { font-family: "Ubuntu Condensed", sans-serif; }
+		ul li, ol li { margin: 8px 0; line-height: 24px; }
+		.footer { margin-top: 2em; width: 100%; font-size: 14px; }
+	</style>
+</head>
+<body>
+<h1>Releasing data or statistics in spreadsheets</h1>
+<p>Follow these simple guidelines to make your data or statistical releases as useful as possible.</p>
+<ol>
+	<li>Don’t merge cells.</li>
+	<li>Don’t mix data and metadata in the same sheet.</li>
+	<li>The first row of a data sheet should contain column headers. None of these headers should be duplicates or blank.</li>
+	<li>The remaining rows should contain data, one datum per row. Don’t include aggregate statistics such as TOTAL or AVERAGE. You can put aggregate statistics in a separate sheet, if they are important.</li>
+	<li>Numbers should just be numbers. Don’t put commas in them, or stars after them, or anything else.</li>
+	<li>Use standard identifiers: e.g. identify countries using ISO 3166 codes rather than names.</li>
+	<li>Don’t use colour or other stylistic cues to encode information.</li>
+	<li>Leave the cell blank if a value is not available.</li>
+	<li>If you provide pivot tables, make sure the underlying data is available separately too.</li>
+	<li>If you also want to create a human-friendly presentation of the data, do so by creating another sheet in the same workbook and referencing the appropriate cells in the canonical data sheet.</li>
+</ol>
+
+<p class="footer">Created by <a href="https://twitter.com/robinhouston">@robinhouston</a> and <a href="https://twitter.com/SeanClarke">@SeanClarke</a> as a counterpoint to the <a href="https://bosker.wordpress.com/2014/12/05/the-government-statistical-services-terrible-spreadsheet-advice/">terrible advice of the Government Statistical Service</a>.</p>
+</body>
+</html>
